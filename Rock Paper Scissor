@@ -1,0 +1,9 @@
+Task 1 - Data Acquisition
+Although our project may appear simple, creating a high-quality dataset for it requires significant effort. In order to ensure accuracy in detecting the different hand gestures (rock, paper, and scissors), we need to generate a substantial amount of diverse rock-paper-scissors photos. It's important to avoid separating the fingers too much during image capture, as it could potentially lead to misclassifications, particularly as scissors. By amassing a large and varied dataset, we can enhance the accuracy of our model and improve its ability to distinguish between the different hand gestures effectively.
+
+Task 2 - Data Preparation
+
+Loading data: The acquired dataset can be loaded into a suitable data management and annotation tool, such as Roboflow, Cvat, or MakesenseAI.
+Labeling and annotation: The data needs to be meticulously labeled and annotated to indicate the corresponding hand gestures (rock, paper, or scissors) in each image or frame.
+Data splitting: The dataset should be divided into appropriate subsets, such as training, validation, and testing sets, to evaluate and optimize the model's performance effectively.
+Data augmentation (if necessary): Additional data augmentation techniques can be applied to expand the dataset, enhancing its diversity and preventing overfitting. Augmentation techniques may include image rotations, flips, translations, or variations in lighting and color.
